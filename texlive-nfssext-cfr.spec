@@ -1,3 +1,9 @@
+# revision 19322
+# category Package
+# catalog-ctan /macros/latex/contrib/nfssext-cfr
+# catalog-date 2010-06-30 12:36:12 +0200
+# catalog-license lppl
+# catalog-version 1.2
 Name:		texlive-nfssext-cfr
 Version:	1.2
 Release:	1
@@ -41,6 +47,7 @@ venturisadf,.
 %doc %{_texmfdistdir}/doc/latex/nfssext-cfr/README
 %doc %{_texmfdistdir}/doc/latex/nfssext-cfr/nfssext-cfr.pdf
 %doc %{_texmfdistdir}/doc/latex/nfssext-cfr/nfssext-cfr.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +58,5 @@ venturisadf,.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
