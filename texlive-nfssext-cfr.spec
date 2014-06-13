@@ -6,7 +6,7 @@
 # catalog-version 1.2
 Name:		texlive-nfssext-cfr
 Version:	1.2
-Release:	6
+Release:	7
 Summary:	Extensions to the LaTeX NFSS
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nfssext-cfr
