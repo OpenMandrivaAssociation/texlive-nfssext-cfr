@@ -5,7 +5,7 @@
 # catalog-license lppl
 # catalog-version 1.2
 Name:		texlive-nfssext-cfr
-Version:	20170328
+Version:	20170414
 Release:	1
 Summary:	Extensions to the LaTeX NFSS
 Group:		Publishing
