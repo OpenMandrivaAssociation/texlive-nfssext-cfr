@@ -1,6 +1,6 @@
 Name:		texlive-nfssext-cfr
 Version:	43640
-Release:	1
+Release:	2
 Summary:	Extensions to the LaTeX NFSS
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nfssext-cfr
