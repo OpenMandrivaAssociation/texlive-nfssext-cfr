@@ -3,7 +3,7 @@ Version:	43640
 Release:	2
 Summary:	Extensions to the LaTeX NFSS
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nfssext-cfr
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/nfssext-cfr
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/nfssext-cfr.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/nfssext-cfr.doc.r%{version}.tar.xz
